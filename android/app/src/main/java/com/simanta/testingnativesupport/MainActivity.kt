@@ -1,4 +1,4 @@
-package com.simanta.testingnativesupport
+package com.prakity.openpaper
 
 import android.os.Build
 import android.os.Bundle

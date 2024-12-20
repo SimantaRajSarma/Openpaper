@@ -24,8 +24,8 @@
         <action android:name="android.intent.action.VIEW"/>
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
-        <data android:scheme="com.simanta.testingnativesupport"/>
-        <data android:scheme="exp+testing-native-support"/>
+        <data android:scheme="com.prakity.openpaper"/>
+        <data android:scheme="exp+Openpaper"/>
       </intent-filter>
     </activity>
   </application>

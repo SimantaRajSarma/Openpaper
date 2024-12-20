@@ -17,10 +17,11 @@ const PDFExample = () => {
       <Pdf
         trustAllCerts={false}
         source={source}
-        onLoadComplete={(numberOfPages, filePath) => {
-          console.log(`Number of pages: ${numberOfPages}`);
+        onLoadComplete={(numberOfPages) => {
+          setTotalPages(numberOfPages);
         }}
         onPageChanged={(page) => setCurrentPage(page)}
+        // enablePaging={true}
         onError={(error) => console.log(error)}
         onPressLink={(uri) => console.log(`Link pressed: ${uri}`)}
         style={styles.pdf}
@@ -28,9 +29,7 @@ const PDFExample = () => {
 
       {/* Page Number Display */}
       <View style={styles.pageNumberContainer}>
-        <Text style={styles.pageNumberText}>
-          Page {currentPage} of {totalPages}
-        </Text>
+        <Text style={styles.pageNumberText}>Page {currentPage}</Text>
       </View>
     </View>
   );
