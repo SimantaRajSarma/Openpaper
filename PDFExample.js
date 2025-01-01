@@ -29,7 +29,9 @@ const PDFExample = () => {
 
       {/* Page Number Display */}
       <View style={styles.pageNumberContainer}>
-        <Text style={styles.pageNumberText}>Page {currentPage}</Text>
+        <Text style={styles.pageNumberText}>
+          Page {currentPage} of {totalPages}
+        </Text>
       </View>
     </View>
   );

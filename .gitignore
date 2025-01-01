@@ -34,3 +34,7 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+
+#firebase config
+openpaper-3217a-firebase-adminsdk-g077d-1db687b669.json

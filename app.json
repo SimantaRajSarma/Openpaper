@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Openpaper",
-    "slug": "Openpaper",
+    "slug": "testing-native-support",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,11 +20,18 @@
       "@config-plugins/react-native-pdf"
     ],
     "android": {
+      "googleServicesFile": "./openpaper-3217a-firebase-adminsdk-g077d-1db687b669.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.prakity.openpaper"
+      "package": "com.prakity.openpaper",
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -33,6 +40,7 @@
       "eas": {
         "projectId": "0ee87522-f0d6-476d-a827-6d1fbd202488"
       }
-    }
+    },
+    "owner": "simanta"
   }
 }
