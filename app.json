@@ -4,7 +4,7 @@
     "slug": "testing-native-support",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/app_icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -17,7 +17,8 @@
     },
     "plugins": [
       "@config-plugins/react-native-blob-util",
-      "@config-plugins/react-native-pdf"
+      "@config-plugins/react-native-pdf",
+      "expo-font"
     ],
     "android": {
       "googleServicesFile": "./openpaper-3217a-firebase-adminsdk-g077d-1db687b669.json",

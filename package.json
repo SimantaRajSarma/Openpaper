@@ -14,9 +14,11 @@
     "@react-navigation/material-bottom-tabs": "^6.2.29",
     "@react-navigation/native": "^6.1.18",
     "expo": "^52.0.19",
+    "expo-app-loading": "^2.1.1",
     "expo-constants": "~17.0.3",
     "expo-dev-client": "~5.0.6",
     "expo-device": "~7.0.1",
+    "expo-font": "~13.0.3",
     "expo-notifications": "~0.29.11",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
@@ -27,8 +29,7 @@
     "react-native-pdf": "^6.7.5",
     "react-native-reanimated": "^3.16.6",
     "react-native-safe-area-context": "^5.0.0",
-    "react-native-screens": "^4.4.0",
-    "react-native-vector-icons": "^10.2.0"
+    "react-native-screens": "^4.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

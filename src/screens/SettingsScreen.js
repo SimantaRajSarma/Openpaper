@@ -1,7 +1,7 @@
 import { View, Text } from "react-native";
 import { Button } from "react-native-paper";
 
-const Settings = () => (
+const SettingsScreen = () => (
   <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
     <Button mode="contained" onPress={() => alert("Button Pressed")}>
       Press me
@@ -13,4 +13,4 @@ const Settings = () => (
   </View>
 );
 
-export default Settings;
+export default SettingsScreen;
