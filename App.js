@@ -46,7 +46,7 @@ const App = () => {
     <SafeAreaProvider>
       <PaperProvider theme={theme}>
         <Appbar.Header>
-          <Appbar.BackAction onPress={_goBack} />
+          {/* <Appbar.BackAction onPress={_goBack} /> */}
           <Appbar.Content title="Title" />
           <Appbar.Action icon="magnify" onPress={_handleSearch} />
           <Appbar.Action icon="dots-vertical" onPress={_handleMore} />

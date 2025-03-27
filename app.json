@@ -21,7 +21,7 @@
       "expo-font"
     ],
     "android": {
-      "googleServicesFile": "./openpaper-3217a-firebase-adminsdk-g077d-1db687b669.json",
+      "googleServicesFile": "./firebaseConfig.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"

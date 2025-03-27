@@ -29,7 +29,8 @@
     "react-native-pdf": "^6.7.5",
     "react-native-reanimated": "^3.16.6",
     "react-native-safe-area-context": "^5.0.0",
-    "react-native-screens": "^4.4.0"
+    "react-native-screens": "^4.4.0",
+    "expo-screen-capture": "~7.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

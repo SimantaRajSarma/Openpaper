@@ -32,9 +32,10 @@ yarn-error.*
 # local env files
 .env*.local
 
+
 # typescript
 *.tsbuildinfo
 
 
 #firebase config
-openpaper-3217a-firebase-adminsdk-g077d-1db687b669.json
+firebaseConfig.json
