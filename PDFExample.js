@@ -7,7 +7,7 @@ const PDFExample = () => {
   const [totalPages, setTotalPages] = useState(0);
 
   const source = {
-    uri: "https://youcanlearnassam.com/app/frontend/uploads/merged.pdf",
+    uri: process.env.EXPO_TEST_PDF_URL,
     cache: true,
   };
 
